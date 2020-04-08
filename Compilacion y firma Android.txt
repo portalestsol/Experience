@@ -1,0 +1,11 @@
+Instalamos Android Studio para crear la app y para instalar el sdk.
+Instalo Gradle (pero no sé hasta qué punto es necesario)
+Me sitúo en la carpeta raíz del proyecto android, y ahí puedo ejecutar el comando gradlew assembleDebug, el apk generado ya viene alineado según la documentación de Android.
+
+Clave privada entiendo que no habrá que crear una porque ya la tendrá.
+Para usar el comando apksigner tenemos que situarnos en la carpeta del sdk de android C:\Users\user\AppData\Local\Android\Sdk\build-tools\29.0.2 (esta ruta la saqué de stackoverflow). Las rutas de los apk hay que ponerlas completas.
+apksigner sign --ks C:\Users\user\Desktop\AlmacenDeClaves\key.jks --in C:\Users\user\Desktop\Proyectos_Android\app\build\outputs\apk\debug\app-debug.apk --out C:\Users\user\Desktop\Proyectos_Android\app\build\outputs\apk\debug\app-debug-signed.apk
+
+
+
+para usar keytool, nos situamos en la carpeta bin el jdk de java

@@ -1,0 +1,2 @@
+http://www.qalearningguide.com/2017/10/code-coverage-for-android-using-jacoco.html
+https://www.curiousily.com/posts/android-manual-testing-code-coverage/

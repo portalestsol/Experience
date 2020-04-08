@@ -1,0 +1,14 @@
+Tienes que estar en la VPN de Aragón para poder conectarte.
+
+ 
+
+Conexión por SSH:
+
+Servidor: 192.168.150.136
+Usuario: tel.mcabellop
+Contraseña: arg2013
+ 
+
+IP y puerto de la BD de DESA para hacer el túnel:
+
+172.25.8.20:1521

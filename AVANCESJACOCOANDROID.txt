@@ -1,0 +1,7 @@
+En build.grade añado la dependencia a jacoco y activo lo del enable coverage true
+Desde la ventana de comandos me situo en la carpeta raíz del proyecto android para poder usar el comando gradle.
+ahí ejecuto el comando gradle createDebugCoverageReport, que me ha creado la carpeta coverage, cosa que desde android studio no podía hacer al principio, porque ya sí lo puedo hacer desde android studio.
+
+
+la firma por defecto se encuentra en c usuarios user .android
+la contraseña es android en minuscula

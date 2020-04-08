@@ -1,0 +1,5 @@
+te paso la conexión para el developer:
+Usuario: RCX_OWN
+Contraseña: RCX_OWN
+Tipo de conexión: Avanzado
+jdbc:oracle:thin:@10.60.164.35:1521:GLOBAL

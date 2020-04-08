@@ -1,0 +1,5 @@
+- El estado de realización en filtrar actividades.
+- Inscribir y contar usuario en tarea online.
+- Filtrar entidad social por país.
+- Correo de finalizar acción.
+- Correo de notificar a entidad.

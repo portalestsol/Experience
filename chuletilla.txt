@@ -1,0 +1,25 @@
+Para el mamoneo de las tildes, en eclipse te vas a windows, preferences y en la caja de busqueda pones encoding. ahi le ponemos en la iso 8859-1
+
+para debuguear en el navegador, colocas el punto de ruptura y haces la acción en el navegador. cuando lo hagas salta el punto de ruptura y colocas el cursor encima de la variable y te dice el valor que le entra.
+
+más o menos igual es el modo debug en el código, pero si le damos a la pestaña variables podremos meterle los valores a pelo y ver qué pasa en el navegador.
+
+para añadir contenido al portal entramos en él con la url de administrar el portal. ahí arriba te aparece la opción de  configuración. ahí lo que hicimos fue añadir en multimedia una carpetilla para añadir el pdf. luego te vas a la primera opción de contenido web y ahí creamos el menú. la ruta del menú padre hay que ponerla antes de la ruta del menú hijo. 
+con el modo oculto podremos probarlo por url, pero no se verá el menú. esto se hace con la url del pro de hacer cambios, pero también se debe de poder ver si ponemos saludinforma en lugar de la ip de pro.
+
+para la configuración de los dias que tenían que haber pasado para el informe de rayos x, para configurar esos días entro como administrador, entro en la carpeta de salud y le doy a opciones, configuración. Pero para que añadir ahí el valor que quiero configurar debo ir CarpetaSaludPortletConfiguration.java y su configuration.jsp
+En language_es.properties le ponemos un nombre bonito
+
+en windows, preferences, show views ponemos en eclipse todas las ventanitas que queramos
+
+para lo del moodle, me lo descargo de svn(SVN Repository Exploring, rama trunk, escuela, moodle, clik derecho en escuelaSalud, checkout, selecciono la ruta) y lo pongo en la carpeta htdocs de xammp. ahí busco un fichero llamado config.php y cambiamos el nombre de la base de datos(dbname)por la que hayamos creado y la ruta de dataroot(aquí ponemos la ruta donde hayamos descomprimido). en la base de datos que hemos creado hay que importar lo otro que me pasó manuel, que básicamente son datos de prueba.
+si no me deja cargar el fichero sql por el tamaño habrá que modificar el tamaño máximo de la subida en el archivo php.ini de la carpeta xampp
+Cuando esté hecho todo lo anterior, nos metemos en el navegador, nos logueamos con admin y Escuela_1, y en la izquierda le damos a cursos. Primero le damos a custom metadata y creamos uno nuevo y lo rellenamos y en category seleccionamos el nombre que le hayamos puesto, luego le damos a Administrar cursos y categoría, crear nuevo curso y abajo te debe aparecer. luego seleccionamos el curso, y al darle a editar nos vamos a la parte de abajo y en "entidad organizadora" le metemos lo que queramos y guardamos
+
+el cambio de ramas se hace haciendo clic derecho, team, switch to another branch
+
+
+Si tengo conflictos, cuando los esté comparando le doy a la flechita que señala en medio a la izquierda para traerme los cambios que haya en remoto y cuando los tenga todos le doy a click derecho, mark as merge (al mergear el conflicto lo marcará como algo nuevo a subir)
+cuando que tenga que descargarme algo le doy a click derecho, update.
+
+Cuando en la consola tenga un error de tipo PermGen space es que se ha llenado la memoria

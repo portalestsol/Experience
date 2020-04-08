@@ -1,0 +1,4 @@
+HandBrake   --> Comprimir vídeos sin perder calidad
+Action      --> Muy bueno para grabar la pantalla
+Apk to java --> Decompila el .apk
+Jacoco      --> Cobertura de código java
