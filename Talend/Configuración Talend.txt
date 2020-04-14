@@ -4,4 +4,4 @@ En la pestaña de contexts, en la url de abajo le quito el pre.
 
 Ventana -> Preferences -> Talend. En java interpreter selecciono ....\bin\java.exe
 
-Con todo eso lo ejecuto y me debe llegar el sms.
+Con todo eso lo ejecuto y me debe llegar el sms, aunque el envío del correo y el connection timed out me va a seguir apareciendo.
